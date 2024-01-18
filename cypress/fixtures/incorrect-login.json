@@ -1,0 +1,37 @@
+{
+
+    "invalidLogin":[
+    {
+        "email": "test@test.com",
+        "password": "test"
+    },
+    {
+        "email":"!@#$%0",
+        "password": "mockdata"
+    },
+    {
+        "email": "mockdata",
+        "password": "mockdata"
+    },
+    {
+        "email": "中文鍵盤",
+        "password": "中文键盘"
+    }
+],
+
+    "emptyEmail": [
+    {
+        "email": " ",
+        "password": "test"
+    },
+    {
+        "email": " ",
+        "password": " "
+    }
+],
+
+    "emptyPassword": {
+        "email": "test@test.com",
+        "password": " "
+    }
+}

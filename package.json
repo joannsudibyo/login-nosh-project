@@ -1,0 +1,15 @@
+{
+  "name": "cypress-nosh-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cypress.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prod-login": "npx cypress run --spec cypress/e2e/login/verify-login.cy.js --config-file prod.config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress-file-upload": "^5.0.8"
+  }
+}

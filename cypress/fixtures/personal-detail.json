@@ -1,0 +1,26 @@
+{
+
+    "nonEnglish": {
+        "chinese": "中文鍵盤", 
+        "arabic": "ة المفاتيح العربية"
+    },
+
+    "invalidPhoneInput": [
+    {
+        "firstName": "test",
+        "lastName": "test",
+        "phone": " "
+    },
+    {
+        "firstName": "test",
+        "lastName": "test",
+        "phone": "test"
+    },
+    {
+        "firstName": "test",
+        "lastName": "test",
+        "phone": 123
+    }
+]
+
+}
